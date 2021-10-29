@@ -38,3 +38,16 @@ dependencies {
 
 
 }
+afterEvaluate {
+    publishing {
+        publications {
+            release(MavenPublication) {
+                from components.release
+
+                groupId = 'com.github.nandot12'
+                artifactId = 'nandotoasthei'
+                version = '1.0.4'
+            }
+        }
+    }
+}

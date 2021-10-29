@@ -9,3 +9,4 @@ dependencyResolutionManagement {
 rootProject.name = "MyLibraries"
 include ':app'
 include ':mytoast'
+include ':Hello'
